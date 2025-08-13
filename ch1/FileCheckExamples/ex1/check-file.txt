@@ -1,8 +1,10 @@
-Notice how freeflow text doesn't bother FileCheck.
+Notice how free flow text doesn't bother FileCheck.
 Notice also that FileCheck doesn't care by default about the number of spaces
 CHECK: I    feel
 CHECK: great
 CHECK: today
+Note: there are two 'How' lines; the two CHECKs below match them in order - so need to be in two unique lines (spacing is not strict)
+CHECK:    How 
 CHECK:    How about you?
 CHECK: I don
 CHECK: Meh

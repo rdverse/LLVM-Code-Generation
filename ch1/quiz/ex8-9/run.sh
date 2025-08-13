@@ -3,9 +3,14 @@
 echo ex8
 FileCheck --input-file input.txt check-file.txt
 
+echo ex8.5
+echo expected pass 
+FileCheck --input-file input.txt check-file.txt --check-prefixes='CHECK,THIRD-CHECK'
+
 echo ex9
 # Here we use two prefixes to enable the second set of check lines in check-file.txt.
 # Alternatively, we could have written a new check-file.
+
 
 # This will reject input.txt, since the faulty lines are here.
 echo expected fail

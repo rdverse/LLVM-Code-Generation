@@ -1,2 +1,3 @@
+CHECK: match with the {{[a-zA-Z1-9]+}} regex
 CHECK: match with the {{[a-zA-Z]+}} regex
 CHECK: match with the {{.*}} regex

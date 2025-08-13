@@ -1,4 +1,5 @@
 line that we want to match with the CHECK prefix
+line that we want to match with the THIRD prefix
 line that we want to match with the SECOND prefix
 
 Matching prefix can be interleaved.

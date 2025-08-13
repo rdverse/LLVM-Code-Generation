@@ -1,4 +1,5 @@
 Match whatever is not a space for our mystery word
+OUR_LABEL is a variable name, which captures Fancy from first line 
 CHECK: with the word [[OUR_LABEL:[^ ]*]]
 Match the beginning of a line using the regex ^
 CHECK: {{^}}[[OUR_LABEL]]:
