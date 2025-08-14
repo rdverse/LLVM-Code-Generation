@@ -5,7 +5,7 @@ FileCheck --input-file input.txt check-file.txt
 
 echo ex8.5
 echo expected pass 
-FileCheck --input-file input.txt check-file.txt --check-prefixes='CHECK,THIRD-CHECK'
+FileCheck --input-file input.txt check-file.txt --check-prefixes='CHECK,THIRS-CHECK'
 
 echo ex9
 # Here we use two prefixes to enable the second set of check lines in check-file.txt.
